@@ -66,14 +66,14 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12 mb-6">
                         <div class="decisions-item">
-                            <a class="decisions-link" target="_blank" href="tracks/education/ai-ta.html">
+                            <a class="decisions-link" target="_blank" href="tracks/education/ai-ta/main.html">
                                 <div class="decisions-hover">
                                     <div class="decisions-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/tracks/education-01.jpg" alt=""/></a>
+                                <img class="img-fluid" src="tracks/education/ai-ta/logo.jpg" alt=""/></a>
                             <div class="decisions-caption">
                                 <div class="decisions-caption-heading">AI TA</div>
-                                <div class="decisions-caption-subheading text-muted">Short team description...</div>
+                                <div id="education1" class="decisions-caption-subheading text-muted"></div>
                             </div>
                         </div>
                     </div>
@@ -359,5 +359,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- Load external pages -->
+        <script>
+        $(document).ready(function(){
+            $('#education1').load("tracks/education/ai-ta/short-description.txt");
+        });
+        </script>
     </body>
 </html>
