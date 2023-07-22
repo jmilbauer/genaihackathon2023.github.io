@@ -1,0 +1,33 @@
+.content {
+    margin-top: 50px;
+}
+
+.content p {
+    font-size: 20pt;
+    font-family: Helvetica;
+}
+
+.flashy {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    width: min(600px, 100vw);
+}
+
+.txt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-container p {
+    width: max(60vw, min(600px, 100vw));
+}
