@@ -1,1 +1,1 @@
-We are the Dynamic Flashcards team. We are building an intelligent flashcard app. Our app lets learners create cards in a flash as they browse the web. Then, when reviewing their cards, our app adds dynamic difficulty by decomposing hard cards into simpler concepts.
+Flashcards that adapt as you learn in an app that's engaging and rewarding!
